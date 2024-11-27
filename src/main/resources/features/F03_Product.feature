@@ -3,7 +3,7 @@ Feature: F03_ Product | users can add product
   Scenario: Verify that user can sign up successfully
     #Given Open the browser and goto "https://www.demoblaze.com/index.html"
     When Click on Sign up button in Header.
-    And The user fills in their username "Abdallah2024#" and password "123456aA@" in the form fields and The user submits the form.
+    And The user fills in their username "Abdallah2025#" and password "123456aA@" in the form fields and The user submits the form.
     Then Validate that successfully message is Sign up successful.
 
 
@@ -16,7 +16,7 @@ Feature: F03_ Product | users can add product
 # 1-Login
 # Given I am on the home page
 When I click on the Login button in the header
-  And I fill in the login form with username "Abdallah2024#" and password "123456aA@"
+  And I fill in the login form with username "Abdallah2025#" and password "123456aA@"
     Then I should see that my account is opened successfully
   # 2-Add the first item
   Given Click on Laptops in categories in home page.
